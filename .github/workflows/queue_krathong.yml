@@ -1,0 +1,37 @@
+name: Auto Queue Krathong
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'submissions/*.json'
+
+# บังคับให้รันทีละ 1 งานตามลำดับคิว (ห้ามทำพร้อมกันเด็ดขาด)
+concurrency:
+  group: krathong-queue-lock
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  assign-schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run queue processor
+        run: python scripts/process_queue.py
+
+      - name: Commit and push updated list
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add krathongs_list.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 จัดคิวเวลาปล่อยกระทงอัตโนมัติ" && git push)
