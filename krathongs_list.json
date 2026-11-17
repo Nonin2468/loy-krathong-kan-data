@@ -3,7 +3,7 @@
   	"id": "k_008",
   	"author": "Moon",
   	"wish": "ขอให้สิ่งที่ไม่ดีออกไปจากชีวิต",
-  	"image_path": "assets/krathong/krathong.0001.png",
+  	"image_path": "https://raw.githubusercontent.com/Nonin2468/loy-krathong-kan-data/refs/heads/main/images/krathong.0001.png",
   	"h_frames": 1,
   	"v_frames": 1,
   	"total_frames": 1,
@@ -17,7 +17,7 @@
   	"id": "k_001",
   	"author": "Son_24684",
   	"wish": "ขอให้ทุกคนมีความสุขในวันลอยกระทง และขอให้โปรเจกต์นี้สำเร็จลุล่วงไปด้วยดี!",
-  	"image_path": "assets/krathong/krathong_spritesheet_.png",
+  	"image_path": "https://raw.githubusercontent.com/Nonin2468/loy-krathong-kan-data/refs/heads/main/images/krathong_spritesheet_.png",
   	"h_frames": 5,
   	"v_frames": 5,
   	"total_frames": 24,
@@ -26,6 +26,6 @@
   	"enable_drop_animation": true,
   	"spawn_y": 120.0,
   	"scale_multiplier": 0.8,
-  	"spawn_time": "2026-11-17T18:38:00"
+  	"spawn_time": "2026-11-17T19:012:00"
   }
 ]
