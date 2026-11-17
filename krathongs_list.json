@@ -48,13 +48,13 @@
     "char_v_frames": 6,
     "char_total_frames": 36,
     "char_fps": 24,
-    "char_scale": 1.2,
-    "char_offset_x": 500.0,
-    "char_offset_y": 500.0,
+    "char_scale": 2.0,
+    "char_offset_x": 50.0,
+    "char_offset_y": 50.0,
 
     "krathong_spawn_frame": 19,
-    "krathong_spawn_y": 420.0,
-    "krathong_spawn_offset_x": 20.0,
+    "krathong_spawn_y": 50.0,
+    "krathong_spawn_offset_x": 200.0,
     
   	"slot_index": 3,
   }
