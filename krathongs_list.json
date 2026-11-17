@@ -3,59 +3,60 @@
   	"id": "k_008",
   	"author": "Moon",
   	"wish": "ขอให้สิ่งที่ไม่ดีออกไปจากชีวิต",
-    
+  	
   	"image_path": "https://raw.githubusercontent.com/Nonin2468/loy-krathong-kan-data/refs/heads/main/images/krathong/krathong.0001.png",
   	"h_frames": 1,
   	"v_frames": 1,
   	"total_frames": 1,
   	"fps": 0,
-    
+  	
   	"slot_index": 1,
   	"enable_drop_animation": true,
   	"spawn_y": 500.0,
-  	"scale_multiplier": 1.0
+  	"scale_multiplier": 0.5
   },
   {
   	"id": "k_001",
   	"author": "Son_24684",
   	"wish": "ขอให้ทุกคนมีความสุขในวันลอยกระทง และขอให้โปรเจกต์นี้สำเร็จลุล่วงไปด้วยดี!",
-    
+  	
   	"image_path": "https://raw.githubusercontent.com/Nonin2468/loy-krathong-kan-data/refs/heads/main/images/krathong/krathong_spritesheet_.png",
   	"h_frames": 5,
   	"v_frames": 5,
   	"total_frames": 24,
   	"fps": 24,
-    
+  	
   	"slot_index": 2,
   	"enable_drop_animation": true,
   	"spawn_y": 120.0,
-  	"scale_multiplier": 0.8,
-  	"spawn_time": "2026-11-17T22:30:00"
+  	"scale_multiplier": 0.4,
+  	"spawn_time": "2026-11-17T23:10:00"
   },
   {
   	"id": "k_002",
   	"author": "Nonin_Test",
   	"wish": "IDK",
-    
+  	
   	"image_path": "https://raw.githubusercontent.com/Nonin2468/loy-krathong-kan-data/refs/heads/main/images/krathong/Loy%20Krathong%20Kan%20-%20Event%20-%20Test%20-%20Krathong.png",
   	"h_frames": 1,
   	"v_frames": 1,
   	"total_frames": 1,
   	"fps": 0,
-
-    "char_image_path": "https://raw.githubusercontent.com/Nonin2468/loy-krathong-kan-data/refs/heads/main/images/character/animation/Loy%20Krathong%20Kan%20-%20Event%20-%20Test%20-%20Spritesheet.png",
-    "char_h_frames": 6,
-    "char_v_frames": 6,
-    "char_total_frames": 36,
-    "char_fps": 24,
-    "char_scale": 2.0,
-    "char_offset_x": 50.0,
-    "char_offset_y": 50.0,
-
-    "krathong_spawn_frame": 19,
-    "krathong_spawn_y": 50.0,
-    "krathong_spawn_offset_x": 200.0,
-    
+  	
+  	"char_image_path": "https://raw.githubusercontent.com/Nonin2468/loy-krathong-kan-data/refs/heads/main/images/character/animation/Loy%20Krathong%20Kan%20-%20Event%20-%20Test%20-%20Spritesheet.png",
+  	"char_h_frames": 6,
+  	"char_v_frames": 6,
+  	"char_total_frames": 36,
+  	"char_fps": 24,
+  	"char_scale": 1.4,
+  	"char_offset_x": -1850.0,
+  	"char_offset_y": 0.0,
+  	
+  	"krathong_spawn_frame": 15,
+  	"krathong_spawn_y": 635.0,
+  	"krathong_spawn_offset_x": -1835.0,
+  	
   	"slot_index": 3,
+  	"scale_multiplier": 1.4
   }
 ]
